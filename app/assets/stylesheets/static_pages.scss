@@ -1,0 +1,35 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: blue
+
+};
+
+.organ {
+  position: relative;
+}
+
+.key-black {
+  float: left;
+  width: 25px;
+  height: 100px;
+  border-color: black;
+  border-style: solid;
+  background-color: black;
+
+}
+
+.key-white {
+  float: left;
+  width: 50px;
+  height: 120px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+}
+
+.key-pressed {
+  background-color: grey;
+}
